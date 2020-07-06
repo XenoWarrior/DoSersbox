@@ -12,6 +12,7 @@ Contributions are welcomed in the experimental branch.
 You can report any bugs in the issues section.
 
 ## You can download the program in the release section.
+or here: https://github.com/fedqx/DoSersbox/releases/
 
 ### Known Bugs:
 
