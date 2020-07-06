@@ -40,10 +40,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.packetcount = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.threadcount = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.portin = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -88,12 +87,13 @@
             // 
             this.resb.AllowDrop = true;
             this.resb.AutoSize = true;
-            this.resb.Location = new System.Drawing.Point(391, 371);
+            this.resb.Location = new System.Drawing.Point(220, 379);
             this.resb.Name = "resb";
-            this.resb.Size = new System.Drawing.Size(402, 38);
+            this.resb.Size = new System.Drawing.Size(573, 38);
             this.resb.TabIndex = 4;
-            this.resb.Text = "I am taking full responsibility\r\n for the consequences of my actions by using thi" +
-    "s program.\r\n";
+            this.resb.Text = "By using this program, User is taking full responsibility for their actions.\r\nThe" +
+    " author of this program is not responsible for any damage caused by this program" +
+    ".";
             this.resb.UseVisualStyleBackColor = true;
             // 
             // label2
@@ -147,22 +147,6 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "Packet Count";
             // 
-            // threadcount
-            // 
-            this.threadcount.Location = new System.Drawing.Point(146, 386);
-            this.threadcount.Name = "threadcount";
-            this.threadcount.Size = new System.Drawing.Size(100, 22);
-            this.threadcount.TabIndex = 12;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(55, 386);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(95, 17);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Thread Count";
-            // 
             // portin
             // 
             this.portin.Location = new System.Drawing.Point(146, 179);
@@ -179,16 +163,26 @@
             this.label6.TabIndex = 13;
             this.label6.Text = "Port";
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(55, 392);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(62, 17);
+            this.linkLabel1.TabIndex = 15;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "By fedqx";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(926, 450);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.portin);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.threadcount);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.packetcount);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.packetsize);
@@ -223,10 +217,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox packetcount;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox threadcount;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox portin;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 

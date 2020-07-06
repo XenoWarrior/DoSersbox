@@ -85,5 +85,10 @@ namespace dosersbox
             }
             
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://fedqxcode.wordpress.com/");
+        }
     }
 }
