@@ -9,6 +9,7 @@ Contributions are welcomed in the experimental branch.
 
 You can report any bugs in the issues section.
 
+You can download the program in the release section.
 
 ### Known Bugs:
 
