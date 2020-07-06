@@ -1,6 +1,8 @@
 # DoSersbox
 ## This program is meant to be used to test for vulnerabilities!
+-----------------------------------------------
 ### I am not responsible for any damage caused by this program. 
+-----------------------------------------------
 ### Using this program in unauthorized networks for hacking/causing damage is illegal!
 
 Contributions are welcomed in the experimental branch.
@@ -9,7 +11,7 @@ Contributions are welcomed in the experimental branch.
 
 You can report any bugs in the issues section.
 
-You can download the program in the release section.
+## You can download the program in the release section.
 
 ### Known Bugs:
 
