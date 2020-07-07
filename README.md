@@ -13,7 +13,7 @@ You can report any bugs in the issues section.
 
 ## You can download the program in the release section.
 
-or from [here](https://www.google.com)
+or from [here](https://github.com/fedqx/DoSersbox/releases/)
 
 ### Known Bugs:
 
